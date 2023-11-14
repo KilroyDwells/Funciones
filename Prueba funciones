@@ -1,0 +1,50 @@
+def suma ( a, b):
+        return a + b
+
+b=30
+a=10 
+
+suma(a, b)
+
+def otra_suma(numero1,numero2):
+        print(numero1 + numero2)
+        print("\n")
+        
+resultado = otra_suma(5,6)
+print(resultado)
+
+def otra_suma(numero1,numero2):
+        print(numero1 + numero2)
+        print("\n")
+        return numero1 + numero2 
+    
+resultado = otra_suma(5,6)
+print(resultado)
+
+def mi_función(nombre, apellido):
+    nombre_completo = nombre, apellido
+    print(nombre_completo) 
+    
+mi_función("Martín","Florez")
+
+def saludar(nombre, mensaje = "Hola"):
+    print(mensaje, nombre)
+    
+saludar("Gamer")
+
+def saludar(nombre, mensaje = "Hola"):
+    print(mensaje, nombre)
+    
+saludar(mensaje = "Buenos dias", nombre = "David")
+
+def my_function(fname):
+    print(fname + " Gonzales")
+    
+my_function("Emil")
+my_function("Tobias")
+my_function("Linus")
+
+def my_function(fname, lname):
+    print(fname + " " + lname)
+    
+my_function("Emil", "Rodríguez")
